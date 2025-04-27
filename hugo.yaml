@@ -1,0 +1,46 @@
+baseURL: https://jmaz.consulting/
+languageCode: en-us
+title: JMAZ Consulting
+theme: ["paper-mod"]
+mainsections: ["services"]
+enableEmoji: true
+
+menu:
+  main:
+    - name: Connect
+      url: /connect/
+    - name: Services
+      url: services/
+
+params:
+  profileMode:
+    enabled: true
+    title: "JMAZ Consulting" # optional default will be site title
+    subtitle: "Future-Ready IT and Home Automation Solutions"
+    imageUrl: "/images/logo.JPG" # optional
+    imageTitle: "JMAZ Consulting" # optional
+    imageWidth: 240 # custom size
+    imageHeight: 240 # custom size
+    buttons:
+      - name: Connect with us!
+        url: "/connect/"
+      - name: View our services!
+        url: "/services/"
+
+  socialIcons: # optional
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/julian-maze/"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/ayerton-zoutendijk/"
+    # - name: "<platform 2>"
+    #   url: "<link2>"
+
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+
+# For GHA
+caches:
+  images:
+    dir: :cacheDir/images
