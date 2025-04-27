@@ -23,9 +23,9 @@ params:
     imageHeight: 240 # custom size
     buttons:
       - name: Connect with us!
-        url: "/connect/"
+        url: "connect/"
       - name: View our services!
-        url: "/services/"
+        url: "services/"
 
   socialIcons: # optional
     - name: "LinkedIn"
